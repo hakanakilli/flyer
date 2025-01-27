@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open an Account</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .flyer {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            text-align: center;
+        }
+        .header {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333333;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            font-size: 16px;
+            color: #555555;
+            margin-bottom: 20px;
+        }
+        .qr-code {
+            margin: 20px auto;
+        }
+        .instructions {
+            font-size: 14px;
+            text-align: left;
+            margin: 20px auto;
+            line-height: 1.6;
+            color: #444444;
+        }
+        .contact {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #555555;
+        }
+        .contact strong {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .logo {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="flyer">
+        <div class="header">Open Your Account with Us Today!</div>
+        <div class="subtitle">Quick and easy registration in just a few minutes.</div>
+
+        <div class="qr-code">
+            <img src="JotForm_QR_Code.png" alt="QR Code" width="200">
+        </div>
+        <p>Scan this QR code to fill out the registration form.</p>
+
+        <div class="instructions">
+            <strong>Steps to Open an Account:</strong>
+            <ol>
+                <li>Complete the online form using the QR code above.</li>
+                <li>Upload one valid photo ID.</li>
+                <li>Provide one proof of your delivery address (e.g., utility bill, council tax bill, bank statement).</li>
+            </ol>
+        </div>
+
+        <div class="contact">
+            <strong>For Support:</strong>
+            📧 Email: hakan@aytac.co.uk<br>
+            📞 Phone: 07502 735005
+        </div>
+
+        <div class="logo">
+            <img src="logo.png" alt="Your Business Logo" width="100">
+        </div>
+    </div>
+</body>
+</html>
